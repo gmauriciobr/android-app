@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid
+                android:color="@color/colorBgButtonPressed"/>
+            <corners
+                android:radius="@dimen/rounded_button_radios"/>
+            <stroke
+                android:width="@dimen/rounded_button_stroke_width"
+                android:color="@color/colorBgButtonPressed"/>
+            <padding
+                android:bottom="@dimen/padding_default"
+                android:top="@dimen/padding_default"
+                android:right="@dimen/padding_default"
+                android:left="@dimen/padding_default"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid
+                android:color="@color/colorBgButton"/>
+            <corners
+                android:radius="@dimen/rounded_button_radios"/>
+            <stroke
+                android:width="@dimen/rounded_button_stroke_width"
+                android:color="@color/colorBgButton"/>
+            <padding
+                android:bottom="@dimen/padding_default"
+                android:top="@dimen/padding_default"
+                android:right="@dimen/padding_default"
+                android:left="@dimen/padding_default"/>
+        </shape>
+    </item>
+</selector>
